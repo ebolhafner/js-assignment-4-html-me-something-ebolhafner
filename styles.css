@@ -1,34 +1,48 @@
 /* Write your CSS here! */
 body {
-    background-color: darkslategray;
+    background-color: rgb(18, 121, 112);
     margin: 8px;
     display: block;
 }
 #mainHeading {
-    color: rgb(228, 85, 85)
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large ;
+    color: rgb(228, 85, 85);
+    margin-left: 40px;
+}
+#quote {
+    color:rgb(95, 248, 133);
+    font-style: italic;
 }
 .funParagraph {
     color: rgb(95, 248, 133)
 }
 p {
+    font-family: 'Courier New', Courier, monospace;
     padding: 40 px;
     padding-right: 80px;
     margin-left: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: gainsboro;
+    line-height: 125% ;
+    
 }
 h2 {
     margin-left: 25px;
-    margin-bottom: 25px;
-    margin-top: 40px
+    margin-top: 40px;
    padding-top: 60px;
     padding: 20px;
+    color:rgb(193, 186, 247)
 }
 h3 {
+    font-style: italic;
+    color:rgb(255, 138, 239);
     margin-left: 25px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px
 }
 img {
     max-width: 50%;
     height: auto;
-    padding: 40px
+    padding-left: 40px;
 }
